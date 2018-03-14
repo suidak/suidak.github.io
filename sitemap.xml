@@ -10,6 +10,19 @@
 <url>
   <loc>http://nacira-suidak.me/</loc>
   <lastmod>2018-03-11T06:55:57+00:00</lastmod>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>http://nacira-suidak.me/experience.html</loc>
+  <lastmod>2018-03-11T06:55:57+00:00</lastmod>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>http://nacira-suidak.me/education.html</loc>
+  <lastmod>2018-03-11T06:55:57+00:00</lastmod>
+  <priority>0.4</priority>
 </url>
 
 
