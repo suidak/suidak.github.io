@@ -173,7 +173,8 @@
 										</li>
 									</ul>
 
-									<div id="map" data-latitude="36.898392" data-longitude="10.189732"></div>
+									<div id="map"></div>
+    
 								</div>
 							</div>
 						</div>
@@ -212,6 +213,23 @@
 	
 	<script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIf-gpEQkeAf6nsCd4VWrfJOFRvZgsitQ"></script>
-    <script type="text/javascript" src="js/site.min.js"></script>
+	<script type="text/javascript" src="js/site.min.js"></script>
+	
+	<script>
+		function initMap() {
+		  var uluru = {lat: -25.363, lng: 131.044};
+		  var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 4,
+			center: uluru
+		  });
+		  var marker = new google.maps.Marker({
+			position: uluru,
+			map: map
+		  });
+		}
+	  </script>
+	  <script async defer
+	  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDw7s3-ht0P7NzEt6zXVoATIBKanFma130&callback=initMap">
+	  </script>
 </body>
 </html>
